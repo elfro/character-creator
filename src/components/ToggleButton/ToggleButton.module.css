@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.toggleButton:last-child {
+  margin-right: 24px;
+}
+
 .toggleButton[aria-pressed='true'] {
   background: hsl(0deg, 0%, 5%);
   color: white;
