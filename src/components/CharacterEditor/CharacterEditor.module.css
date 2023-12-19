@@ -1,17 +1,10 @@
 .characterEditor {
-  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
-  background: linear-gradient(
-          to bottom,
-          hsl(180deg, 25%, 92%) 0%,
-          hsl(180deg, 25%, 92%) 70%,
-          hsl(195deg, 20%, 86%) 30%,
-          hsl(195deg, 20%, 86%) 100%
-  );
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -41,4 +34,14 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: hsl(195deg, 20%, 86%);
+  margin-bottom: -64px;
 }
